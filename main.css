@@ -89,3 +89,15 @@ ol {
   border-right: 1px solid #ccc;
   vertical-align: middle;
 }
+
+/* Nav-search CSS */
+
+#nav-search {
+  width: 490px;
+  height: 100%;
+  margin-left: 136px;
+}
+
+#nav-search form input {
+  padding: 22px 10px 18px 52px;
+}
