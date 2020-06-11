@@ -63,15 +63,20 @@ ol {
 
 /* top nav css */
 .top-nav {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   height: auto;
   border-bottom: 1px solid #ccc;
 }
 
 .logo:link {
+  position: relative;
   color: #333;
   display: inline-block;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3 ease;
+  -moz-transition: all 0.3 ease;
+  -o-transition: all 0.3 ease;
 }
 
 .logo:visited {
@@ -85,7 +90,7 @@ ol {
 .logo img {
   position: relative;
   padding: 13px 18px;
-  width: 130px;
+  width: 100px;
   border-right: 1px solid #ccc;
   vertical-align: middle;
 }
@@ -175,5 +180,21 @@ ol {
 }
 
 .btn-sign:hover {
-  box-shadow: 0px 0px 6px 5px rgba(242, 241, 239, 1);
+  box-shadow: 0px 0px 4px 4px rgba(242, 241, 239, 1);
+}
+/* end of sign up button */
+/* jumbotron */
+#slide-wrapper {
+  width: 400%;
+  height: 72vh;
+  background-color: lightblue;
+}
+.slide-arrow {
+  width: 50px;
+  height: 50px;
+  margin: 0 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  -webkit-border-radius: 48px;
+  margin-top: -24px;
 }
