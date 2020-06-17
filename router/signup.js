@@ -10,15 +10,14 @@ router.post("/", async (req, res) => {
   const emailDyalna = req.body.email;
   const passwordDyalna = req.body.password;
 
-  const checkUser = await User.find({ email: emailDyalna });
+  const checkUser = await User.findOne({ email: emailDyalna });
 
   if (checkUser) {
     return res.send("user with this email already exists");
   }
-
   User.create({ email: emailDyalna, password: passwordDyalna });
 
-  res.redirect("/login");
+  res.send("congrats");
 });
 
 module.exports = router;
