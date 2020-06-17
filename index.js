@@ -18,6 +18,7 @@ app.set("view engine", "ejs");
 app.set("views", "views");
 
 // use routes
+app.use(express.static("views")); // set stylesheet path
 app.use("/", indexRouter);
 app.use("/profile", profileRouter);
 app.use("/signup", signupRouter);
