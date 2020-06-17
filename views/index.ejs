@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Airbnb</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../views/css/main.css" />
+  </head>
+
+  <body>
+    <div class="top-nav clearfix">
+      <a href="index.html" class="logo">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
+          alt="Airbnb"
+        />
+      </a>
+      <div id="airbnb-search">
+        <form method="GET" action="index.html">
+          <input
+            type="text"
+            name="search"
+            id="nav-search"
+            placeholder="Search"
+          />
+        </form>
+      </div>
+      <ul>
+        <li><a href="#">Host your home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
+        <li class="btn-sign"><a class="nav-btn" href="#">Sign up</a></li>
+      </ul>
+    </div>
+    <div id="slide-wrapper">
+      <form class="" action="" method="GET" role="search">
+        <fieldset class="fielditems">
+          <div role="tablist">
+            <label for="search-block-tab-true" class="Home">
+              <input
+                type="radio"
+                class="home-input"
+                value="/homes"
+                id="search-block-tab-true-STAYS"
+                data-testid="radio-tab-search-block-tab-true-STAYS"
+                name="refinement_paths[]"
+                role="tab"
+                aria-selected="true"
+                checked=""
+              />
+              <span calss="home-title">Host your home</span>
+            </label>
+          </div>
+        </fieldset>
+        <div class="" data-panel-bounds="true">
+          <div class="tabitems">
+            <div class="adress-section">
+              <div>
+                <div class="adress-main">
+                  <label
+                    class="labeladress"
+                    for="bigsearch-query-attached-query"
+                    ><div class="adm">
+                      <div class="adtitle">Adresse</div>
+                      <input
+                        class="adsearch"
+                        aria-autocomplete="list"
+                        aria-expanded="false"
+                        autocomplete="off"
+                        autocorrect="off"
+                        spellcheck="false"
+                        id="bigsearch-query-attached-query"
+                        role="combobox"
+                        name="query"
+                        placeholder="Où allez-vous&nbsp;?"
+                        data-testid="structured-search-input-field-query"
+                        value=""
+                      /></div
+                  ></label>
+                  <span id="ad-style" class="adstyle" role="status"></span>
+                </div>
+              </div>
+            </div>
+            <div class="separtor"></div>
+            <div class="date">
+              <button
+                class="_esmga25"
+                aria-expanded="false"
+                type="button"
+                data-testid="structured-search-input-field-dates-button"
+              >
+                <div class="_3hmsj">
+                  <div class="inout">Arrivée/Départ</div>
+                  <div class="_twinlf">Ajoutez des dates</div>
+                </div>
+              </button>
+            </div>
+            <div class="separator"></div>
+            <div class=""></div>
+          </div>
+          <div class="btnsearch">
+            <button
+              data-testid="structed-search-input-search-button"
+              type="submit"
+              class="srchbrtn"
+            ></button>
+          </div>
+        </div>
+      </form>
+      <!-- <div class="slide-arrow" id="left-slider-arrow">
+        <span class="ion-chevron-left"></span>
+      </div>
+      <div class="slide-arrow" id="left-slider-arrow">
+        <span class="ion-chevron-right"></span>
+      </div> -->
+    </div>
+  </body>
+</html>
