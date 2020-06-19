@@ -7,6 +7,7 @@ const mongoose = require("mongoose");
 const indexRouter = require("./router/index");
 const profileRouter = require("./router/profile");
 const signupRouter = require("./router/signup");
+const loginRouter = require("./router/login");
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use(express.static("views")); // set stylesheet path
 app.use("/", indexRouter);
 app.use("/profile", profileRouter);
 app.use("/signup", signupRouter);
+app.use("/login", loginRouter);
 
 mongoose
   .connect("mongodb://localhost:27017/airbnb", {
