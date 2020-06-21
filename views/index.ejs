@@ -40,8 +40,10 @@
       <ul>
         <li><a href="#">Host your home</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Login</a></li>
-        <li class="btn-sign"><a class="nav-btn" href="#">Sign up</a></li>
+        <li><a href="/login">Login</a></li>
+        <li class="btn-sign">
+          <a class="nav-btn" href="/signup">Sign up</a>
+        </li>
       </ul>
     </div>
     <div id="slide-wrapper">
@@ -64,7 +66,7 @@
             </label>
           </div>
         </fieldset>
-        <div class="" data-panel-bounds="true">
+        <div class="tabading" data-panel-bounds="true">
           <div class="tabitems">
             <div class="adress-section">
               <div>
@@ -96,26 +98,45 @@
             <div class="separtor"></div>
             <div class="date">
               <button
-                class="_esmga25"
+                class="btn-form"
                 aria-expanded="false"
                 type="button"
                 data-testid="structured-search-input-field-dates-button"
               >
-                <div class="_3hmsj">
+                <div class="dateadd">
                   <div class="inout">Arrivée/Départ</div>
-                  <div class="_twinlf">Ajoutez des dates</div>
+                  <div class="add-info">Ajoutez des dates</div>
                 </div>
               </button>
             </div>
             <div class="separator"></div>
-            <div class=""></div>
+            <div class="guestsblock">
+              <button
+                class="btn-form"
+                aria-expanded="false"
+                data-testid="structed-search-input-field-dates-button"
+              >
+                <div class="guestadd">
+                  <div calss="inout"></div>
+                  <div class="add-info"></div>
+                </div>
+              </button>
+            </div>
           </div>
           <div class="btnsearch">
             <button
               data-testid="structed-search-input-search-button"
               type="submit"
               class="srchbrtn"
-            ></button>
+            >
+              <span class="search">
+                <span class="searchw">
+                  <span class="searchword">
+                    Search
+                  </span>
+                </span>
+              </span>
+            </button>
           </div>
         </div>
       </form>

@@ -1,15 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>login</title>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <form action="/login" method="POST">
-      Email: <input id="email" name="email" type="text" /> <br />
-      Password: <input id="passowrd" name="password" type="password" />
-      <button type="submit">Envoyer</button>
+      <div class="login-box">
+        <h1>Login</h1>
+        <div class="textbox">
+          <i class="fas fa-user"></i>
+          <input name="email" type="text" placeholder="Username" />
+        </div>
+
+        <div class="textbox">
+          <i class="fas fa-lock"></i>
+          <input name="password" type="password" placeholder="Password" />
+        </div>
+
+        <button type="submit" class="btn" value="Sign in" />zaezae</button></div>
+      </div>
     </form>
   </body>
 </html>

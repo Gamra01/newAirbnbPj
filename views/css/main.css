@@ -7,6 +7,7 @@ body {
   font-weight: 400;
   color: #484848;
   line-height: 1.43;
+  /* overflow-x: hidden; */
 }
 
 p {
@@ -249,4 +250,76 @@ label {
   left: 0px !important;
   bottom: 0px !important;
   height: 0px;
+}
+
+.home-title {
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: #222222;
+}
+.tabading {
+  background-color: #ffffff !important;
+  border: 1px solid #f7f7f7 !important;
+  border-radius: 12px !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08) !important;
+  color: #222222;
+  display: flex !important;
+  position: relative !important;
+  width: 100% important;
+}
+.tabitems {
+  flex: 1 0 auto !important;
+  display: flex !important;
+}
+.adress-section {
+  flex: 1 0 0% !important;
+}
+.adress-main {
+  margin: -1px !important;
+  position: relative !important;
+}
+.labeladress {
+  cursor: pointer !important;
+  display: block !important;
+  position: relative !important;
+  transition: border-color 0.2s ease !important;
+  border-radius: 12px !important;
+  padding: 16px 22px !important;
+}
+.adm {
+  position: relative !important;
+  z-index: 1 !important;
+}
+.adtitle {
+  font-size: 10px !important;
+  line-height: 12px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  padding-bottom: 4px !important;
+}
+.adsearch {
+  display: block !important;
+  border: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100% !important;
+  background: none !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+  font-weight: 600 !important;
+  color: #222222 !important;
+  text-overflow: ellipsis !important;
+}
+
+.adstyle {
+  border: 0px !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(100%) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important;
 }
